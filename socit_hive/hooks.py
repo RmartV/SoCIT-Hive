@@ -1,5 +1,5 @@
 app_name = "socit_hive"
-app_title = "Socit Hive"
+app_title = "SoCIT Hive"
 app_publisher = "Panacea"
 app_description = "SoCIT PBL Management"
 app_email = "rcvillacorte@student.apc.edu.ph"
@@ -249,4 +249,3 @@ app_license = "mit"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-
