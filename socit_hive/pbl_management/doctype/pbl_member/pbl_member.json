@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-18 13:11:43.357870",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student_email",
+  "student_full_name",
+  "student_role"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_email",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student Email",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "student_full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Student Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "student_role",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Student Role",
+   "options": "Team Member\nTeam Leader",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-18 18:32:40.864252",
+ "modified_by": "Administrator",
+ "module": "PBL Management",
+ "name": "PBL Member",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
