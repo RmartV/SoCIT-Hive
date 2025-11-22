@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class CreateCourse(Document):
+class ProofreadRequest(Document):
 	pass

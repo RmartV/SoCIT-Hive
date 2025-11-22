@@ -11,9 +11,9 @@ EXTRA_TEST_RECORD_DEPENDENCIES = []  # eg. ["User"]
 IGNORE_TEST_RECORD_DEPENDENCIES = []  # eg. ["User"]
 
 
-class IntegrationTestSubmitPBLSubject(IntegrationTestCase):
+class IntegrationTestCourse(IntegrationTestCase):
 	"""
-	Integration tests for SubmitPBLSubject.
+	Integration tests for Course.
 	Use this class for testing interactions between multiple components.
 	"""
 

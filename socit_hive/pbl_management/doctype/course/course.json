@@ -69,7 +69,7 @@
  "modified": "2025-11-18 13:35:53.607512",
  "modified_by": "Administrator",
  "module": "PBL Management",
- "name": "Create Course",
+ "name": "Course",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [

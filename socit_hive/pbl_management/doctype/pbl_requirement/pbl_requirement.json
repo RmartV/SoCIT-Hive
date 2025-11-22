@@ -40,7 +40,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Assigned Course",
-   "options": "Create Course",
+   "options": "Course",
    "reqd": 1
   },
   {
@@ -146,10 +146,10 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-18 21:48:39.714565",
+ "modified": "2025-11-22 15:45:49.909158",
  "modified_by": "Administrator",
  "module": "PBL Management",
- "name": "Submit PBL Subject",
+ "name": "PBL Requirement",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [

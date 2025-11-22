@@ -1,5 +1,4 @@
 {
- "app": "socit_hive",
  "charts": [],
  "content": "[{\"id\":\"plHKHBHLWZ\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 16px;\\\">Manage PBL</span>\",\"col\":12}},{\"id\":\"FNkcjWo4Ux\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Course\",\"col\":4}},{\"id\":\"kZ-uwXGhie\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create PBL Team\",\"col\":4}},{\"id\":\"yRqQpbjBC_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Assign Course\",\"col\":4}},{\"id\":\"GzItYEcgJK\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Team List\",\"col\":12}}]",
  "creation": "2025-11-17 13:33:35.198028",
@@ -13,12 +12,11 @@
  "indicator_color": "green",
  "is_hidden": 0,
  "label": "Home",
- "link_type": "DocType",
  "links": [],
- "modified": "2025-11-18 18:10:00.209692",
+ "modified": "2025-11-22 15:59:22.341038",
  "modified_by": "Administrator",
- "module": "Socit Hive",
- "name": "Home",
+ "module": "PBL Management",
+ "name": "PBL Coordinator Home",
  "number_cards": [],
  "owner": "Administrator",
  "parent_page": "",
@@ -30,14 +28,18 @@
    "quick_list_filter": "[]"
   }
  ],
- "roles": [],
+ "roles": [
+  {
+   "role": "PBL Coordinator"
+  }
+ ],
  "sequence_id": 23.0,
  "shortcuts": [
   {
    "color": "Grey",
    "doc_view": "New",
    "label": "Assign Course",
-   "link_to": "Submit PBL Subject",
+   "link_to": "PBL Requirement",
    "stats_filter": "[]",
    "type": "DocType"
   },
@@ -45,7 +47,7 @@
    "color": "Grey",
    "doc_view": "New",
    "label": "Create Course",
-   "link_to": "Create Course",
+   "link_to": "Course",
    "stats_filter": "[]",
    "type": "DocType"
   },
@@ -58,6 +60,5 @@
    "type": "DocType"
   }
  ],
- "title": "Home",
- "type": "Workspace"
+ "title": "Home"
 }

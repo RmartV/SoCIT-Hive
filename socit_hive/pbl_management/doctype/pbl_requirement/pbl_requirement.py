@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class SubmitPBLSubject(Document):
+class PBLRequirement(Document):
 	pass

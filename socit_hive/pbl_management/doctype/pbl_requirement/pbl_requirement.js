@@ -1,7 +1,7 @@
 // Copyright (c) 2025, Panacea and contributors
 // For license information, please see license.txt
 
-// frappe.ui.form.on("Submit PBL Subject", {
+// frappe.ui.form.on("PBL Requirement", {
 // 	refresh(frm) {
 
 // 	},
